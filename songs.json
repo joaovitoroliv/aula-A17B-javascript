@@ -1,0 +1,17 @@
+{
+    "titulo1": {
+        "fileName": "titulo1.mp3",
+        "artist": "artista1",
+        "title": "titulo1 completo"
+    },
+    "titulo2": {
+        "fileName": "titulo2.mp3",
+        "artist": "artista2",
+        "title": "titulo2 completo"
+    },
+    "titulo3": {
+        "fileName": "titulo3.mp3",
+        "artist": "artista3",
+        "title": "titulo3 completo"
+    }
+}
