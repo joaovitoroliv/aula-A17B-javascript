@@ -14,7 +14,7 @@ const bear = {
     name: 'Ice Bear',
     hobbies: ['knitting', 'cooking', 'dancing']
 };
-// Para serializar:
+// Para serializar, transformar objeto em string:
 const serializedBear = JSON.stringify(bear);
 console.log(serializedBear);
 
@@ -38,10 +38,10 @@ console.log('');
 console.log('Transformando um arquivo .json em Objeto Javascript: ')
 function onStreamProcessed(json){
     console.log(json);
-    
 }
 
 function onResponse(response){
+    // Retorno com método json
     return response.json();
 }
 function onError(error){
